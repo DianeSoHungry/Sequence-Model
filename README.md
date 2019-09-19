@@ -6,7 +6,7 @@ You are welcomed to refer to this submission if you are stucked somewhere. But p
 
 # A Quick Walk-Through
 
-## [Building a Recurrent Neural Network - Step by Step](./1_Building_a_Recurrent_Neural_Network_Step_by_Step/Building_a_Recurrent_Neural_Network_Step_by_Step_v3.ipynb)
+## [Project 1: Building a Recurrent Neural Network - Step by Step](./1_Building_a_Recurrent_Neural_Network_Step_by_Step/Building_a_Recurrent_Neural_Network_Step_by_Step_v3.ipynb)
 
 **Task:**
 
@@ -17,7 +17,7 @@ You are welcomed to refer to this submission if you are stucked somewhere. But p
 
 You will get familiar with how RNN/LSTM cell is constructed and passed from one iteration to the next in detail. You will also get better at numpy.matrix manipulation.
 
-## [Dinosaurus_Island_Character_level_language_model_final_v3.ipynb](./2_Dinosaur_Island--Character-level_language_model/Dinosaurus_Island_Character_level_language_model_final_v3.ipynb)
+## [Project 2: Dinosaurus_Island_Character_level_language_model_final_v3.ipynb](./2_Dinosaur_Island--Character-level_language_model/Dinosaurus_Island_Character_level_language_model_final_v3.ipynb)
 
 **Task:**
 
@@ -27,7 +27,7 @@ You will get familiar with how RNN/LSTM cell is constructed and passed from one 
 
 Apart from building an RNN model with Numpy again, you will also take care of the input and output. Say, How to map an character into a one-hot vector, and vice-versa. Ah, you will also need to deal with gradient explosion by clipping the gradient at each time stamp. This is obviously an one-to-one model, beware that at each step the prediction is affected by all previous inputs, and that the input at each step is not the output from last step, instead, you sample an new one-hot-vector(representing a character in this case) according to this output(probability distribution).
 
-## [Jazz_Improvisation_With_LSTM](./3_Jazz_Improvisation_With_LSTM/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3.ipynb)
+## [Project 3: Jazz_Improvisation_With_LSTM](./3_Jazz_Improvisation_With_LSTM/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3.ipynb)
 
 **Task:**
 
@@ -38,7 +38,7 @@ Apart from building an RNN model with Numpy again, you will also take care of th
 Get familiar with how to build and train an Sequence (here, LSTM) model with Keras. 
 
 
-## [Word_Vector_Representation](./4_Word_Vector_Representation/Operations_on_word_vectors_v2.ipynb)
+## [Project 4: Word_Vector_Representation](./4_Word_Vector_Representation/Operations_on_word_vectors_v2.ipynb)
 
 **Task:**
 
@@ -50,7 +50,7 @@ Get familiar with how to build and train an Sequence (here, LSTM) model with Ker
 2. Get to see how word vector representation works.
 
 
-## [Emojify](./5_Emojify/Emojify_v2.ipynb)
+## [Project 5: Emojify](./5_Emojify/Emojify_v2.ipynb)
 
 **Task:**
 1. Using the same pre-traind set of word vectors to tackle a task: Given a list of sentences, assign an emoji from [❤️, ⚾️, 😄, 😞, 🍴] to each sentence.
@@ -63,7 +63,7 @@ Get familiar with how to build and train an Sequence (here, LSTM) model with Ker
 2. More detailed tricks like coping with different length of sentences by padding, using dropout layer to decrease over-fitting, etc.
 
 
-## [Machine_Translation](./6_Machine_Translation/Neural_machine_translation_with_attention_v4.ipynb)
+## [Project 6: Machine_Translation](./6_Machine_Translation/Neural_machine_translation_with_attention_v4.ipynb)
 
 **Task:**
 1. Transforming human readable date into machine readable date, by building a LSTM network with Attention mechanism (see figure 1).
@@ -75,6 +75,7 @@ Get familiar with how to build and train an Sequence (here, LSTM) model with Ker
 <img src="./6_Machine_Translation/images/attn_mechanism.png" style="width:400;height:400px;"> <br>
 </td> 
 </table>
+
 <caption><center> **Figure 1**: Neural machine translation with attention</center></caption>
 
 
